@@ -22,12 +22,6 @@ GUI:
       hyperspy.Component:
         module: hyperspy_gui_ipywidgets.model
         function: get_component_widget
-      hyperspy.EELSCLEdge_Component:
-        module: hyperspy_gui_ipywidgets.model
-        function: get_eelscl_widget
-      hyperspy.EELSSpectrum.print_edges_table:
-        module: hyperspy_gui_ipywidgets.tools
-        function: print_edges_table_ipy
       hyperspy.ScalableFixedPattern_Component:
         module: hyperspy_gui_ipywidgets.model
         function: get_scalable_fixed_patter_widget
@@ -85,12 +79,3 @@ GUI:
       hyperspy.Model1D.fit_component:
         module: hyperspy_gui_ipywidgets.model
         function: fit_component_ipy
-      hyperspy.microscope_parameters_EELS:
-        module: hyperspy_gui_ipywidgets.microscope_parameters
-        function: eels_microscope_parameter_ipy
-      hyperspy.microscope_parameters_EDS_TEM:
-        module: hyperspy_gui_ipywidgets.microscope_parameters
-        function: eds_tem_microscope_parameter_ipy
-      hyperspy.microscope_parameters_EDS_SEM:
-        module: hyperspy_gui_ipywidgets.microscope_parameters
-        function: eds_sem_microscope_parameter_ipy

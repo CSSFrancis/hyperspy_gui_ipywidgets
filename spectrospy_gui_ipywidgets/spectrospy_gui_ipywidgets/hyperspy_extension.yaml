@@ -1,0 +1,18 @@
+GUI:
+  widgets:
+    ipywidgets:
+      spectrospy.EELSCLEdge_Component:
+        module: hyperspy_gui_ipywidgets.model
+        function: get_eelscl_widget
+      spectrospy.EELSSpectrum.print_edges_table:
+        module: hyperspy_gui_ipywidgets.tools
+        function: print_edges_table_ipy
+      spectrospy.microscope_parameters_EELS:
+        module: hyperspy_gui_ipywidgets.microscope_parameters
+        function: eels_microscope_parameter_ipy
+      spectrospy.microscope_parameters_EDS_TEM:
+        module: hyperspy_gui_ipywidgets.microscope_parameters
+        function: eds_tem_microscope_parameter_ipy
+      spectrospy.microscope_parameters_EDS_SEM:
+        module: hyperspy_gui_ipywidgets.microscope_parameters
+        function: eds_sem_microscope_parameter_ipy
